@@ -28,11 +28,8 @@ def spam(token , a):
     vk = vk_session.get_api()
     while True:
         vk.messages.send(
-            #user_id = "133064272",     #Арина
-            #user_id = "98398554",      #Дима
-            #user_id = "218125821",     #Оля
-            #user_id = "299098695",     #ya
-            user_id = "160259470" ,
+            
+            user_id = "" ,
             message = "Верни ХЕЙНИКЕН и поправляйся давай",
             attachment = "audio135866784_456239025",
             random_id = ""
